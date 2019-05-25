@@ -1,0 +1,26 @@
+{
+  "name": "ccc",
+  "version": "1.0.0",
+  "description": "c++ 语法学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "曹斌鑫",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^7.6.1",
+    "@commitlint/config-angular": "^7.6.0",
+    "husky": "^2.3.0"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "scripts": {
+	"commitmsg": "commitlint -e $GIT_PARAMS"
+},
+"config": {
+	"commitizen": {
+		"path": "cz-customizable"
+	}
+}
+}
