@@ -4,7 +4,7 @@
   "description": "c++ 语法学习",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "author": "曹斌鑫",
   "license": "ISC",
@@ -15,12 +15,9 @@
   },
   "dependencies": {},
   "keywords": [],
-  "scripts": {
-	"commitmsg": "commitlint -e $GIT_PARAMS"
-},
-"config": {
-	"commitizen": {
-		"path": "cz-customizable"
-	}
-}
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  }
 }
